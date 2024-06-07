@@ -1,0 +1,26 @@
+{"intents": [
+    {"tag": "greetings",
+     "patterns": ["hello","hey", "hi", "sup", "ola", "ay", "hallo", "salut", "greetings", "what's up", "good day"],
+     "responses": ["Hello There :)", "Hi, how can i help you", "Greetings", "Hola amigo"]},
+    
+    {"tag": "goodbye",
+     "patterns": ["cya","bye", "goodbye", "farewell", "i am leaving", "going out", "later", "see you", "soon", "miss you", "pa", "adio"],
+     "responses": ["Hope to see you soon", "farewell partner", "good bye my friend", "but.. i want to chat with you :("]},
+    
+    {"tag": "models",
+     "patterns": ["car models","what are some of the models", "give me a list of models names", "car brands", "car types", "what are the car brands sold here"],
+     "responses": ["Currently there are the following car models sold at Renault PLACEHOLDER....", "the database shows the following models available in our store"]},
+    
+    {"tag": "price",
+     "patterns": ["model price", "pricing list","prices?","car price"],
+     "responses": ["Based on the information in the database the current price in Romania is at ???? euros"]},
+     
+    {"tag": "human",
+     "patterns": ["i want to talk to a human", "give me a human operator","i need more help","give me the manager"],
+     "responses": ["sorry for not being aple to assist you at this point, i will transfer you to a human agent, or you can write us an email at https://www.renaultgroup.com/en/ask-your-question-to-groupe-renault/"]},
+    
+    {"tag": "purpose",
+     "patterns": ["what is your purpose?", "what do you do?"],
+     "responses": ["I am a demo built for Renault Romania", "I am a natural language processing model that tries to understand human language and help with certain information that are in my database"]}
+    
+]}
