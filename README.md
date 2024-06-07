@@ -2,9 +2,9 @@
 
 In my first semester, I completed a text classification project aimed at processing and analyzing textual data using various Natural Language Processing (NLP) techniques. The project involved several key steps, leveraging libraries such as NLTK and TensorFlow.
 
-#Project Steps:  
-  
-##Text Tokenization:
+Project Steps:  
+
+Text Tokenization:
 
 Utilized NLTK to tokenize text from "Sense and Sensibility" by Jane Austen.
 Tokenized the text into sentences and words, removing punctuation and filtering out unnecessary characters.
